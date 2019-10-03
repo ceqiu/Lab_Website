@@ -18,6 +18,75 @@
 	<br>
 	<div class="container">
 		<form action="home.html">
+			<div class="form-group row">
+				<label class="col-sm-4 col-form-label">Full Name</label>
+				<div class="col-sm-8">
+					<input type="text" placeholder="Enter Name" style="float:left; width:100%">
+				</div>
+			</div>
+			<div class="form-group row">
+				<label class="col-sm-4 col-form-label">Email Address</label>
+				<div class="col-sm-8">
+					<input type="email" placeholder="Enter email" style="float:left; width:100%">
+				</div>
+			</div>
+			<div class="form-group row">
+				<label class="col-sm-4 col-form-label">Password</label>
+				<div class="col-sm-8">
+					<input type="password" placeholder="Password" style="float:left; width:100%">
+				</div>
+			</div>
+			<div class="form-group row">
+				<label class="col-sm-4 col-form-label">Confirm Password</label>
+				<div class="col-sm-8">
+					<input type="password" placeholder="Confirm Password" style="float:left; width:100%">
+				</div>
+			</div>
+			<div class="form-group row">
+				<label class="col-sm-4 col-form-label">CU Boulder Alumni</label>
+				<div class="col-sm-8">
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="choice" value="Yes" checked> Yes
+					  <br>
+					  <input class="form-check-input" type="radio" name="choice" value="No"> No
+					</div>
+				</div>
+			</div>
+			<div class="form-group row">
+				<label class="col-sm-4 col-form-label">CU Boulder Student</label>
+				<div class="col-sm-8">
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="choice" value="Yes" checked> Yes
+					  <br>
+					  <input class="form-check-input" type="radio" name="choice" value="No"> No
+					</div>
+				</div>
+			</div>
+			<div class="form-group row">
+				<label class="col-sm-4 col-form-label">Student Status</label>
+				<div class="col-sm-8">
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="choice" value="Undergrad" checked> Undergrad
+					  <br>
+					  <select name="select_choice" style="float:left; width:100%">
+					  	<option selected>Select Student Status</option>
+					  	<option value="Freshman">Freshman</option>
+					  	<option value="Sophomore">Sophomore</option>
+					  	<option value="Junior">Junior</option>
+					  	<option value="Senior">Senior</option>
+					  </select>
+					  <br>
+					  <input class="form-check-input" type="radio" name="choice" value="Grad"> Grad
+					  <br>
+					  <select name="select_choice" style="float:left; width:100%">
+					  	<option selected>Select Student Status</option>
+					  	<option value="MA">MA</option>
+					  	<option value="MBA">MBA</option>
+					  	<option value="PhD">PhD</option>
+					  </select>
+					</div>
+				</div>
+			</div>
 			<!--
 				Todo: Create a form with the following fields:
 					1. Name Text Field
